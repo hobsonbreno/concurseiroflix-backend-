@@ -1,0 +1,11 @@
+{
+  "name": "concurseiroflix-backend-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hobsonbreno/concurseiroflix-backend-.git",
+  "author": "Hobson Nascimento <hobsonbmn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
