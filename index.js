@@ -2,11 +2,11 @@ const  express = require("express")
 const  app = express()
 const port = process.env.PORT || 3000
 
-const  produtos = require ("./src/produtos/produtos.json")
+const  conteudo = require ("./src/conteudo/api.json")
 
 
-app.get("/produtos",  (reg,res)  => {
-    return  res.json(produtos)
+app.get("/conteudo",  (reg,res)  => {
+    return  res.json(api)
 })
 
 
