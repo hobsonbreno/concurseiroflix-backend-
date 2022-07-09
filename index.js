@@ -6,7 +6,7 @@ const  conteudo = require ("./src/conteudo/api.json")
 
 
 app.get("/conteudo",  (reg,res)  => {
-    return  res.json(api)
+    return  res.json(conteudo)
 })
 
 
