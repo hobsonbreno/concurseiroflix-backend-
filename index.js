@@ -11,5 +11,5 @@ app.get("/conteudo",  (reg,res)  => {
 
 
 app.listen(port, () => {
-    console.log("Servidor está rodando..." )
+    console.log("Servidor está rodando...." )
 }) 
